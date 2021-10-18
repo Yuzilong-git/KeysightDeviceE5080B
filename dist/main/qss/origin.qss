@@ -1,0 +1,149 @@
+QWidget
+{
+/*    background-color: #FFFAFA;*/
+/*    border:none;*/
+}
+
+QLabel
+{
+    font-size: 14px;
+}
+QComboBox
+{
+    font-size: 14px;
+}
+QPushButton
+{
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFFAFA;
+    color: black;
+    border: 1px solid #606060;
+}
+QPushButton:hover
+{
+    background-color: #606060;
+    border: 1px solid white;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: darkGray;
+}
+QPushButton:disabled
+{
+    background-color: #cccccc;
+    color:white;
+    border:1px solid gray;
+}
+
+QCheckBox
+{
+    font-size: 14px;
+    border-radius:8px;
+}
+QGroupBox
+{
+    font-size: 14px;
+    border: 1px solid rgb(1, 130, 153);
+}
+QGroupBox::indicator {
+      width: 13px;
+      height: 13px;
+  }
+
+QGroupBox:title
+{
+    color: rgb(1, 130, 153);
+    left: 40px;
+    top: -3;
+}
+
+QWidget
+{
+/*    background-color:#e0e0e1;*/
+}
+QComboBox
+{
+    border-radius:4px;
+    border:1px solid black;
+    color: #000;
+    font: normal normal 12px "Microsoft YaHei";
+    background: transparent;
+}
+QComboBox:hover
+{
+    border:2px solid gray;
+}
+
+QComboBox QAbstractItemView {
+    outline: 0px solid gray;   /* 选定项的虚框 */
+    border: 1px solid black;   /* 整个下拉窗体的边框 */
+    color: darkBlue;
+    background-color: white;   /* 整个下拉窗体的背景色 */
+    selection-background-color: darkBlue;   /* 整个下拉窗体被选中项的背景色 */
+}
+QComboBox:disabled
+{
+/*    background-color:rgb(200, 200, 200);*/
+    border:1px solid gray;
+}
+
+QComboBox::down-arrow {
+      image: url('icon/down_arrow.png');
+}
+
+QLineEdit
+{
+    border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+    border-radius: 4px;/*设置圆角的大小*/
+    padding: 0 2px;/*如果没有内容光标在开始往后移动0.8像素点*/
+    selection-background-color: darkGray;
+    height:20px;
+    font-size:14px;
+/*    font-weight:bold;*/
+}
+QLineEdit:disabled
+{
+    background-color:#f0f0f0;
+}
+
+QLineEdit:hover
+{
+    border:2px solid gray;
+}
+QLineEdit:focus
+{
+    border:2px solid rgb(78,113,242);
+}
+
+QTableWidget
+{
+    background:#FFFFFF;
+    border:none;
+    font-size:12px;
+/*    font-family:"Microsoft YaHei";*/
+    color:#666666;
+}
+
+QTableWidget:item
+{
+    border-bottom:1px solid #EEF1F7 ;
+    background-color:#EEEED1;
+}
+
+QHeaderView
+{
+/*    background:#FFFFE0;*/
+/*    padding-left:0px;*/
+}
+
+QTableWidget:item:selected
+{
+    color:#AFEEEE;
+    background:	#1E90FF;
+}
+
+
